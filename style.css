@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  display: flex;
+  font-family: Outfit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-bg {
+  background: #15263f;
+  border-radius: 15px;
+  width: 350px;
+  height: 596px;
+}
+
+.card-bg {
+  background: hsl(216, 50%, 16%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.line {
+  color: hsl(215, 32%, 27%);
+  margin: 24px;
+}
+
+.image-equilibrium {
+  width: 302px;
+  height: 302px;
+}
+
+.soft-blue {
+  color: #8bacd9;
+}
+
+.cyan {
+  color: #00fff8;
+}
+
+.avatar {
+  border-radius: 50px;
+  width: 33px;
+  height: 33px;
+  border: 1px solid #ffffff;
+}
+
+.strong {
+  color: #ffffff;
+}
+
+.image-equilibrium {
+  border-radius: 8px;
+}
+
+.text-info {
+  margin: 24px;
+}
+
+.description {
+  margin-top: 16px;
+}
+
+.price-day {
+  margin: 0px 26px 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.owner {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 24px;
+}
+
+.createdby {
+  margin-left: 16px;
+}
+
+.maintext {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.mainp {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.details {
+  font-size: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+}
